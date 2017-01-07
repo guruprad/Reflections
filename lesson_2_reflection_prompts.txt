@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	A .git folder containing version control metadata is created. This is needed to manage your project and rollback to different versions as needed.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	It allows better control over what files to track and roll back to. This avoids tracking files with large sizes which might be outputs and instead track the files that actually matter. The working directory remains separated.
